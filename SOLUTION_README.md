@@ -22,10 +22,10 @@ The error view (FullScreenErrorView) presents a button to retry and a message.
 The viewModel handles calls to search(first time), nextPage calls and a delegate to respond VC demands.
 
 ## Third libraries
--  [LLSpinner](https://github.com/alephao/LLSpinner) 
+-  [LLSpinner](https://github.com/alephao/LLSpinner)
 Simple fullscreen view spinner.
-- [Kingfisher](https://github.com/onevcat/Kingfisher) 
-- Tool to download, cache, prefetch and set images/placeholders in a UIImageView.
+- [Kingfisher](https://github.com/onevcat/Kingfisher)
+Tool to download, cache, prefetch and set images/placeholders in a UIImageView.
 - [SnapKit](https://github.com/SnapKit/SnapKit)
 Tool to build constraints easily.
 No need to set translatesAutoresizingMaskIntoConstraints = false
