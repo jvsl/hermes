@@ -1,9 +1,15 @@
-//
-//  RemoteLoader.swift
-//  GithubGraphQL
-//
-//  Created by joão lucas on 11/04/22.
-//  Copyright © 2022 test. All rights reserved.
-//
-
-import Foundation
+struct RemoteRepoLoader: RepoLoading {
+    let fetcher: Fetching = Fetcher()
+    
+    func fetch(
+        phrase: String,
+        filter: SearchRepositoriesQuery.Filter? = nil,
+        completion: @escaping FetcherCompletion) {
+            
+        fetcher.search(
+            phrase: phrase,
+            filter: filter,
+            cachPolicy: .fetchIgnoringCacheData,
+            completion: completion)
+    }
+}
