@@ -13,6 +13,8 @@
 		C5EB89B42804812E001E7340 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB89B32804812E001E7340 /* ReusableView.swift */; };
 		C5EB89B7280481B0001E7340 /* ViewCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB89B6280481B0001E7340 /* ViewCoding.swift */; };
 		C5EB89B92804898C001E7340 /* GithubRepoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB89B82804898C001E7340 /* GithubRepoCellViewModel.swift */; };
+		C5EB89BC28048CB5001E7340 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C5EB89BB28048CB5001E7340 /* Kingfisher */; };
+		C5EB89BF28048DDD001E7340 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = C5EB89BE28048DDD001E7340 /* Cosmos */; };
 		D806B6B527C71F1C006F594D /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = D806B6B427C71F1C006F594D /* Apollo */; };
 		D806B6B727C71F1C006F594D /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = D806B6B627C71F1C006F594D /* ApolloSQLite */; };
 		D84E7B1127C81B88000DEB5B /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84E7B1027C81B88000DEB5B /* MockData.swift */; };
@@ -87,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5EB89BF28048DDD001E7340 /* Cosmos in Frameworks */,
+				C5EB89BC28048CB5001E7340 /* Kingfisher in Frameworks */,
 				C5EB89AC28047D1F001E7340 /* SnapKit in Frameworks */,
 				D806B6B527C71F1C006F594D /* Apollo in Frameworks */,
 				D806B6B727C71F1C006F594D /* ApolloSQLite in Frameworks */,
@@ -253,6 +257,8 @@
 				D806B6B427C71F1C006F594D /* Apollo */,
 				D806B6B627C71F1C006F594D /* ApolloSQLite */,
 				C5EB89AB28047D1F001E7340 /* SnapKit */,
+				C5EB89BB28048CB5001E7340 /* Kingfisher */,
+				C5EB89BE28048DDD001E7340 /* Cosmos */,
 			);
 			productName = GithubGraphQL;
 			productReference = D9A10F9C216C4AFD007998EC /* GithubGraphQL.app */;
@@ -329,6 +335,8 @@
 			packageReferences = (
 				D806B6B327C71F1C006F594D /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				C5EB89AA28047D1F001E7340 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				C5EB89BA28048CB5001E7340 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				C5EB89BD28048DDD001E7340 /* XCRemoteSwiftPackageReference "Cosmos" */,
 			);
 			productRefGroup = D9A10F9D216C4AFD007998EC /* Products */;
 			projectDirPath = "";
@@ -747,6 +755,22 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		C5EB89BA28048CB5001E7340 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		C5EB89BD28048DDD001E7340 /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 22.1.0;
+			};
+		};
 		D806B6B327C71F1C006F594D /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apollographql/apollo-ios";
@@ -762,6 +786,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C5EB89AA28047D1F001E7340 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		C5EB89BB28048CB5001E7340 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5EB89BA28048CB5001E7340 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		C5EB89BE28048DDD001E7340 /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5EB89BD28048DDD001E7340 /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
 		};
 		D806B6B427C71F1C006F594D /* Apollo */ = {
 			isa = XCSwiftPackageProductDependency;
