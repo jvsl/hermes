@@ -19,7 +19,7 @@ The view was built by using View Code. A protocol called ViewConding was created
 The error view (FullScreenErrorView) presents a button to retry and a message.
 
 # ViewModel
-The view Models handles calls to search(first time), nextPage calls, delegate to respond VC demands.
+The viewModel handles calls to search(first time), nextPage calls and a delegate to respond VC demands.
 
 ## Third libraries
 -  [LLSpinner](https://github.com/alephao/LLSpinner) 
