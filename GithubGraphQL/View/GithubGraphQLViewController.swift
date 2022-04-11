@@ -96,7 +96,11 @@ extension GithubGraphQLViewController: GithubGraphQLViewModelDelegate {
     }
     
     func didFetchFail(action: @escaping () -> Void) {
-
+        let errorViewController = FullScreenErrorViewController()
+        errorViewController.tryAgainAction = action
+        errorViewController.isModalInPresentation = true
+        errorViewController.modalPresentationStyle = .overFullScreen
+        present(errorViewController, animated: true, completion: nil)
     }
 }
 
