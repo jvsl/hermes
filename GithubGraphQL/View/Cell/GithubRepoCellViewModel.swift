@@ -7,6 +7,24 @@ struct GithubRepoCellViewModel: Hashable
     var url: String
     var owner: Owner
     var stargazers: Stargazers
+    
+    var avatarURL: URL? {
+        return URL(string: owner.avatar)
+    }
+    
+    var stars: Double {
+        let totalAcount = Double(stargazers.totalCount)
+        switch totalAcount {
+        case let stars where stars < 500:
+            return 2
+        case let stars where stars > 500 && stars < 1000:
+            return 3
+        case let stars where stars >= 1000:
+            return 5
+        default:
+            return 1
+        }
+    }
 }
 
 extension GithubRepoCellViewModel {
