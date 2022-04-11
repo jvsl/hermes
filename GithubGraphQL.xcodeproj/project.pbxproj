@@ -12,6 +12,7 @@
 		C5EB89B0280480C4001E7340 /* GithubGraphQLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB89AF280480C4001E7340 /* GithubGraphQLViewController.swift */; };
 		C5EB89B42804812E001E7340 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB89B32804812E001E7340 /* ReusableView.swift */; };
 		C5EB89B7280481B0001E7340 /* ViewCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB89B6280481B0001E7340 /* ViewCoding.swift */; };
+		C5EB89B92804898C001E7340 /* GithubRepoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB89B82804898C001E7340 /* GithubRepoCellViewModel.swift */; };
 		D806B6B527C71F1C006F594D /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = D806B6B427C71F1C006F594D /* Apollo */; };
 		D806B6B727C71F1C006F594D /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = D806B6B627C71F1C006F594D /* ApolloSQLite */; };
 		D84E7B1127C81B88000DEB5B /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84E7B1027C81B88000DEB5B /* MockData.swift */; };
@@ -55,6 +56,7 @@
 		C5EB89AF280480C4001E7340 /* GithubGraphQLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubGraphQLViewController.swift; sourceTree = "<group>"; };
 		C5EB89B32804812E001E7340 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		C5EB89B6280481B0001E7340 /* ViewCoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCoding.swift; sourceTree = "<group>"; };
+		C5EB89B82804898C001E7340 /* GithubRepoCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRepoCellViewModel.swift; sourceTree = "<group>"; };
 		D84E7B1027C81B88000DEB5B /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		D8F7604A27C724F900B1AB58 /* API+Abstractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Abstractions.swift"; sourceTree = "<group>"; };
 		D8F7604C27C7295500B1AB58 /* GraphQLClient+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GraphQLClient+Search.swift"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				C5EB89AD28047D91001E7340 /* GithubGraphQLCell.swift */,
+				C5EB89B82804898C001E7340 /* GithubRepoCellViewModel.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				D8F7604D27C7295500B1AB58 /* GraphQLClient+Search.swift in Sources */,
 				D9A10FA2216C4AFD007998EC /* ViewController.swift in Sources */,
 				D9A10FE8216C77CD007998EC /* GraphQLClient.swift in Sources */,
+				C5EB89B92804898C001E7340 /* GithubRepoCellViewModel.swift in Sources */,
 				D8F7605127C72B1700B1AB58 /* ApolloClient.swift in Sources */,
 				C5EB89B42804812E001E7340 /* ReusableView.swift in Sources */,
 				D9C8E128216DBA11002A64FC /* API.swift in Sources */,
