@@ -98,6 +98,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5EB89A628047BF5001E7340 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5EB89A728047BFA001E7340 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C5EB89A828047C00001E7340 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		D84E7B0F27C81B69000DEB5B /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +151,9 @@
 		D9A10F9E216C4AFD007998EC /* GithubGraphQL */ = {
 			isa = PBXGroup;
 			children = (
+				C5EB89A828047C00001E7340 /* Helper */,
+				C5EB89A728047BFA001E7340 /* ViewModel */,
+				C5EB89A628047BF5001E7340 /* View */,
 				D9A10FCE216C4E71007998EC /* Networking */,
 				D9A10F9F216C4AFD007998EC /* AppDelegate.swift */,
 				D9A10FA6216C4AFD007998EC /* Assets.xcassets */,
