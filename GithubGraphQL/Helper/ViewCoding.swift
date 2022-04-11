@@ -1,9 +1,14 @@
-//
-//  ViewCoding.swift
-//  GithubGraphQL
-//
-//  Created by joão lucas on 11/04/22.
-//  Copyright © 2022 test. All rights reserved.
-//
+protocol ViewCoding {
+    func addSubviews()
+    func addConstraints()
+    func additionalConfig()
+    func buildView()
+}
 
-import Foundation
+extension ViewCoding {
+    func buildView() {
+        addSubviews()
+        addConstraints()
+        additionalConfig()
+    }
+}

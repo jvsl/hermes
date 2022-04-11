@@ -1,9 +1,11 @@
-//
-//  ReusableView.swift
-//  GithubGraphQL
-//
-//  Created by joão lucas on 11/04/22.
-//  Copyright © 2022 test. All rights reserved.
-//
+import UIKit
 
-import Foundation
+protocol ReusableView: AnyObject {
+    static var reuseIdentifier: String { get }
+}
+
+extension ReusableView where Self: UIView {
+    static var reuseIdentifier: String {
+        return NSStringFromClass(self)
+    }
+}
