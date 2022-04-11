@@ -21,6 +21,7 @@
 		C5EB89C828049928001E7340 /* GithubGraphQLLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB89C728049928001E7340 /* GithubGraphQLLoader.swift */; };
 		C5EB89CB28049A56001E7340 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = C5EB89CA28049A56001E7340 /* Reachability */; };
 		C5EB89CD28049BE7001E7340 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB89CC28049BE7001E7340 /* Spinner.swift */; };
+		C5EB89CF2804A2BC001E7340 /* FullScreenErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB89CE2804A2BC001E7340 /* FullScreenErrorViewController.swift */; };
 		D806B6B527C71F1C006F594D /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = D806B6B427C71F1C006F594D /* Apollo */; };
 		D806B6B727C71F1C006F594D /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = D806B6B627C71F1C006F594D /* ApolloSQLite */; };
 		D84E7B1127C81B88000DEB5B /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84E7B1027C81B88000DEB5B /* MockData.swift */; };
@@ -69,6 +70,7 @@
 		C5EB89C528049914001E7340 /* LocalLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLoader.swift; sourceTree = "<group>"; };
 		C5EB89C728049928001E7340 /* GithubGraphQLLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubGraphQLLoader.swift; sourceTree = "<group>"; };
 		C5EB89CC28049BE7001E7340 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		C5EB89CE2804A2BC001E7340 /* FullScreenErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenErrorViewController.swift; sourceTree = "<group>"; };
 		D84E7B1027C81B88000DEB5B /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		D8F7604A27C724F900B1AB58 /* API+Abstractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Abstractions.swift"; sourceTree = "<group>"; };
 		D8F7604C27C7295500B1AB58 /* GraphQLClient+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GraphQLClient+Search.swift"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			children = (
 				C5EB89A928047CB6001E7340 /* Cell */,
 				C5EB89AF280480C4001E7340 /* GithubGraphQLViewController.swift */,
+				C5EB89CE2804A2BC001E7340 /* FullScreenErrorViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 			files = (
 				D8F7604D27C7295500B1AB58 /* GraphQLClient+Search.swift in Sources */,
 				C5EB89CD28049BE7001E7340 /* Spinner.swift in Sources */,
+				C5EB89CF2804A2BC001E7340 /* FullScreenErrorViewController.swift in Sources */,
 				D9A10FE8216C77CD007998EC /* GraphQLClient.swift in Sources */,
 				C5EB89B92804898C001E7340 /* GithubRepoCellViewModel.swift in Sources */,
 				C5EB89C828049928001E7340 /* GithubGraphQLLoader.swift in Sources */,
